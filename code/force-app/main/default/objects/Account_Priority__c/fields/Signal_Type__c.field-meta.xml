@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signal_Type__c</fullName>
+    <label>Signal Type</label>
+    <description>The signal that produced the priority. Lets follow-through and conversion be reported by signal.</description>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Spend Decline</fullName><default>false</default><label>Spend Decline</label></value>
+            <value><fullName>Category Gap</fullName><default>false</default><label>Category Gap</label></value>
+            <value><fullName>Reorder Lapsed</fullName><default>false</default><label>Reorder Lapsed</label></value>
+            <value><fullName>Renewal</fullName><default>false</default><label>Renewal</label></value>
+            <value><fullName>Expansion</fullName><default>false</default><label>Expansion</label></value>
+            <value><fullName>Managed Print</fullName><default>false</default><label>Managed Print</label></value>
+            <value><fullName>Service Risk</fullName><default>false</default><label>Service Risk</label></value>
+            <value><fullName>Single Thread</fullName><default>false</default><label>Single Thread</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

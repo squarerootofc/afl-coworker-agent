@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentAccesses>
+        <agentName>Priority_Followthrough</agentName>
+        <enabled>true</enabled>
+    </agentAccesses>
+    <description>Makes the Priority Follow-Through employee agent visible to the user. Deploy only after the agent is published; the deploy fails if the agent doesn't exist yet. Assign together with Priority_Agent_User.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Priority Agent Access</label>
+</PermissionSet>

@@ -1,0 +1,36 @@
+# OS / tooling cruft
+.DS_Store
+.sfdx/
+.sf/
+node_modules/
+*.log
+
+# Local Claude Code runtime state
+.claude/
+
+# Client data — never push (source PDFs, extracts, generated load files)
+*.csv
+*.pdf
+*.xlsx
+*.xls
+*.zip
+*.docx
+*.pptx
+
+# Collateral — decks, diagrams (not code or runbooks)
+docs/*.png
+*.gdoc
+*.ppt
+*slide*
+*slides*
+*deck*.html
+*deck*.htm
+
+# Any folder whose name contains "data" — source-data, data, etc.
+**/*data*/
+
+# Raw meeting notes (real names/emails/recording links) — never publish.
+MeetingNotes/
+
+# Archived / superseded material
+_attic/

@@ -1,0 +1,7 @@
+# deploy.sh always deploys by explicit metadata name, never the whole project.
+# Don't run a bare `sf project deploy start` before the agent is published: the
+# Priority_Agent_Access permission set fails until the agent exists.
+
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**
